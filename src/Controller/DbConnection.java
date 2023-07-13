@@ -88,7 +88,7 @@ public class DbConnection {
          ResultSet rs = null;
 
          try{
-             String query = "Select name, averageMarks from student order by averageMarks";
+             String query = "Select name, averageMarks from student order by averageMarks desc";
              statement = conn.prepareStatement(query);
              rs = statement.executeQuery();
 

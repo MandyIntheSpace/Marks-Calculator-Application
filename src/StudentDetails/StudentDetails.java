@@ -136,6 +136,7 @@ public class StudentDetails {
 
     public void displayAscendingStudentResult() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Do you want to see the information of the student? (Yes/No");
         String studentOrderDisplayQuestion = scanner.nextLine();
         if (studentOrderDisplayQuestion.equalsIgnoreCase("yes")) {
             DbConnection dbConnection = new DbConnection();

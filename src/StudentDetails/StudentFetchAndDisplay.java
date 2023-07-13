@@ -7,14 +7,10 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class StudentFetchAndDisplay {
-    public void showprocess() {
+
+    public static void main(String[] args) {
         StudentDetails studentDetails = new StudentDetails();
         studentDetails.StudentRecord();
         studentDetails.displayAscendingStudentResult();
-    }
-
-    public static void main(String[] args) {
-        StudentFetchAndDisplay studentFetchAndDisplay = new StudentFetchAndDisplay();
-        studentFetchAndDisplay.showprocess();
     }
 }
